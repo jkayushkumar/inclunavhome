@@ -91,7 +91,7 @@
     height: 220px;width: 300px; 
 }
 .cardHead{
-    position: absolute;right: 0;top:5px;
+    position: absolute;right: 0;top:25px;
     height: 60px;width: 140px;
     background-color: #efeeee;    
     box-shadow:5px 5px 5px rgba(0, 0, 0, 0.2),
