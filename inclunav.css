@@ -1,0 +1,257 @@
+.body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    position: absolute;top:0;left: 0;z-index: 1;
+    height: 50px;min-width: 100%;max-width: 100%;
+    background-color: rgb(40,50,65);
+}
+.headerLinks{
+    position: absolute;bottom:10px;right: 40px;
+    text-align: right;font-size: 14px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;    
+}
+.headerHome{
+    position: absolute;bottom:10px;left: 90px;
+    text-align: right;font-size: 18px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.headerHomeLogo{
+    position: absolute;bottom:10px;left: 40px;
+    height: 28px;
+}
+.footer{
+    position: absolute;bottom:0;left: 0;z-index: 1;
+    height: 110px;min-width: 100%;max-width: 100%;
+    background-color: rgb(40,50,65);
+}
+.footerCol4{
+    position: absolute;top:12%;right:15%;
+    width: 15%;
+    text-align: left;font-size: 14px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    color: white;
+}
+.footerCol3{
+    position: absolute;top:12%;right: 25%;
+    width: 15%;
+    text-align: left;font-size: 14px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    color: white;
+}
+.footerCol2{
+    position: absolute;top:12%;right: 35%;
+    width: 15%;
+    text-align: left;font-size: 14px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    color: white;
+}
+.footerCol1{
+    position: absolute;top:12%;left:15%;
+    width: 15%;
+    text-align: left;font-size: 14px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    color: white;
+}
+.banner{
+    position: absolute;top:50px;left: 0;
+    height: 90%;min-width: 100%;max-width: 100%;
+    background-color: #EFEEEE
+}
+.bannerHead{
+    position: absolute;top: 2%;left: 12%;
+    width: 57%;
+    font-size: 30px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-align: right;
+    color: #0F5FA6;
+}
+.bannerSubHead{
+    position: absolute;top: 8%;left: 12%;
+    width: 57%;
+    font-size: 18px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-align: right;
+    color: #0F5FA6;
+}
+.bannerText{
+    position: absolute;top: 14%;left: 12%;
+    width: 57%;
+    font-size: 16px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    text-align:justify;
+    color: #0F5FA6;
+}
+.bannerLogo{
+    position: absolute;right: 60px;top: 1.8%;right: 12%;
+    height: 180px;
+}
+.cardAnnotate{
+    position: absolute;top:35%;left:8%;
+    height: 220px;width: 300px; 
+}
+.cardHead{
+    position: absolute;right: 0;top:5px;
+    height: 60px;width: 140px;
+    background-color: #efeeee;    
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.2),
+    -8px -8px 8px rgba(255, 255, 255, 0.6);
+    box-sizing: border-box; 
+    outline: none;border: none; border-radius: 10% ; 
+    cursor: pointer;
+    font-size: 18px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;text-align: center;
+    color: #0F5FA6;
+}
+.cardContent{
+    position: absolute;left: 0;top:100px;
+    width: 300px;
+    font-size: 14px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;text-align: left;
+    color: #0F5FA6;
+}
+.cardHead:hover{ background-color: rgba(255, 255, 255, .2);}
+.cardHead:active{ 
+    background-color: rgba(240, 240,240, 0.6);
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.2) inset,
+    -5px -5px 5px rgba(255, 255, 255, 0.8) inset;  
+    color: #2999fc; 
+}
+.cardNavigate{
+    position: absolute;top:35%;left: 37.5%;
+    height: 220px;width: 300px;
+}
+.cardContact{
+    position: absolute;top:35%;right:10%;
+    height: 220px;width: 300px;
+}
+.contactName{
+    position: absolute; left: 20px;top:100px;
+    width: 280px;height: 25px;
+    background-color: rgba(240, 240,240, 0.6);
+    box-shadow:2px 2px 2px rgba(0, 0, 0, 0.2) inset,
+    -2px -2px 2px rgba(255, 255, 255, 0.8) inset; 
+    border-style: none; 
+    border-color: Transparent; 
+    overflow: auto;  
+    font-size: 14px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;text-align: left;
+    color: #8a8787;
+    resize: none;
+    background-color: white;
+}
+.contactEmail{
+    position: absolute; left: 20px;top:150px;
+    width: 280px;height: 25px;
+    background-color: rgba(240, 240,240, 0.6);
+    box-shadow:2px 2px 2px rgba(0, 0, 0, 0.2) inset,
+    -2px -2px 2px rgba(255, 255, 255, 0.8) inset; 
+    border-style: none; 
+    border-color: Transparent; 
+    overflow: auto;  
+    font-size: 14px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;text-align: left;
+    color: #8a8787;
+    resize: none;
+    background-color: white;
+}
+.contactMsg{
+    position: absolute; left: 20px;top:200px;
+    width: 280px;height: 50px;
+    background-color: rgba(240, 240,240, 0.6);
+    box-shadow:2px 2px 2px rgba(0, 0, 0, 0.2) inset,
+    -2px -2px 2px rgba(255, 255, 255, 0.8) inset; 
+    border-style: none; 
+    border-color: Transparent; 
+    overflow: auto;  
+    font-size: 14px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;text-align: left;
+    color: #8a8787;
+    resize: none;
+    background-color: white;
+}
+.partnerDiv{
+    position: absolute;bottom: 110px;left: 0;
+    min-width: 100%;max-width: 100%;height: 120px;
+    justify-content: center;
+    /* background-color: #0F5FA6; */
+}
+.partnerHead{
+    position: relative;top: 10px;
+    font-size: 18px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: #0F5FA6;
+}
+.partnerLogo{
+    position: absolute;top: 40px;
+    height: 30px;
+    text-align: center;
+}
+
+.partner1{
+    position: relative;  width: 200px;  left: 20%;
+}
+.partner2{
+    position: relative; width: 200px;left: 40%;
+}
+.partner3{
+    position: relative; width: 200px; left: 60%;
+}
+.partner4{
+    position: relative;width: 200px;   left: 75%;
+}
+
+
+.book
+            {
+                box-sizing: border-box;
+                height: 100px;width: 140px;border-radius: 10%;
+                border: 4px solid #66888d;
+                background-color: #eeeeee;
+                position: relative;
+                perspective: 300px;
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+            .page
+            {
+                box-sizing: border-box;
+                height: 92px;width: 67px;border-top-right-radius: 8%;border-bottom-right-radius: 8%;
+                border-left: 2px solid #66888d; border-right: 1px solid #aaaaaa;
+                margin: 0;right: 0px;
+                display: block;position: absolute;overflow: hidden;
+                background-color: #ffffff;
+                transform-origin: left center;
+                -webkit-transform-origin: left center;
+                transform-style: preserve-3d;
+            }
+            .book .page:nth-child(1) 
+            {
+               -webkit-animation: pageTurn 2s cubic-bezier(0, .2, 1, .8) 1.2s infinite;
+                animation: pageTurn 2s cubic-bezier(0, .2, 1, .8) 1.2s infinite;
+            }
+            .book .page:nth-child(2) 
+            {
+               -webkit-animation: pageTurn 2s cubic-bezier(0, .2, 1, .8) 1s infinite;
+                animation: pageTurn 2s cubic-bezier(0, .2, 1, .8) 1s infinite;
+            }
+            .book .page:nth-child(3) 
+            {
+               -webkit-animation: pageTurn 2s cubic-bezier(0, .2, 1, .8) .8s infinite;
+                animation: pageTurn 2s cubic-bezier(0, .2, 1, .8) .8s infinite;
+            }
+            @keyframes pageTurn 
+            {
+                0%{transform: rotateY(0deg);} 
+                20%{background: #cccccc;}  
+                40%{background: #cccccc; transform: rotateY(-180deg);}
+                100%{background: #dddddd;transform: rotateY(-180deg);}         
+            }
+            @-webkit-keyframes pageTurn
+            {
+                0%{transform: rotateY(0deg);} 
+                20%{background: #cccccc;}  
+                40%{background: #cccccc; -webkit-transform: rotateY(-180deg);transform: rotateY(-180deg);}
+                100%{background: #dddddd;-webkit-transform: rotateY(-180deg);transform: rotateY(-180deg);}
+            }
