@@ -528,15 +528,13 @@
     -webkit-animation: flapOpen2 3s cubic-bezier(0, 0.2, 1, 0.8) 0s infinite;
 }
 @keyframes flapOpen2{
-    0%{transform: rotateX(-90deg);}
+    0%{transform: rotateX(-90deg);}   
     50%{transform: rotateX(-90deg);}
-    51%{transform: rotateX(-89deg);}
     100%{transform: rotateX(0deg);}
 }
 @-webkit-keyframes flapOpen2{
-    0%{-webkit-transform: rotateX(-90deg);}
+    0%{-webkit-transform: rotateX(-90deg);}   
     50%{-webkit-transform: rotateX(-90deg);}
-    51%{-webkit-transform: rotateX(-89deg);}
     100%{-webkit-transform: rotateX(0deg);}
 }
 .letter{
@@ -549,8 +547,8 @@
     -webkit-animation: letterOut 3s cubic-bezier(0, 0.2, 1, 0.8) 0s infinite; 
 }
 @keyframes letterOut{
-    50%{transform: translateY(-10px);}100%{transform: translateY(-50px);}
+    70%{transform: translateY(-10px);}100%{transform: translateY(-50px);}
 }
 @-webkit-keyframes letterOut{
-    50%{-webkit-transform: translateY(-10px);}100%{-webkit-transform: translateY(-50px);}
+    70%{-webkit-transform: translateY(-10px);}100%{-webkit-transform: translateY(-50px);}
 }
