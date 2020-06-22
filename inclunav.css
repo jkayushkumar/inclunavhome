@@ -443,25 +443,25 @@ body{overflow-x:hidden}
         min-width: 100%;max-width: 100%;
     }
     .annotation{
-        left: 30px;top: 5%;
+        left: 30px;top: 8%;
         transform: scale(.4) perspective(200px) rotateY(6deg);
         -webkit-transform: scale(.4) perspective(200px) rotateY(6deg);
     }
     .cardContent{
-        left: 25%;top: 0;width: 72%;font-size: 12px;
+        left: 25%;top: 0;width: 62%;font-size: 12px;text-align: justify;
     }
     .cardHead{
-        right: 73%;top:37%;
+        right: 73%;top:39%;
         height: 50px;width: 80px;
         font-size: 14px;
     } 
     .cardNavigate{
-        top:100%;left:0;
+        top:102%;left:0;
         min-width: 100%;max-width: 100%;
         background-color: #EFEEEE;
     }
     .cardNavigate>.cardContent{
-        left:0;top: 0;width: 70%;font-size: 12px;
+        left:0;top: 0;width: 62%;font-size: 12px;text-align: justify;
     }
     .cardNavigate > .cardHead{
         right: 5%;top:45%;
@@ -474,7 +474,7 @@ body{overflow-x:hidden}
         -webkit-transform: scale(.4)rotate(-4deg)perspective(200px)rotateY(5deg);
     }
     .cardContact{
-        top:135%;left:0;
+        top:138%;left:0;
         min-width: 100%;max-width: 100%;
         background-color: #EFEEEE;
     }
@@ -499,12 +499,12 @@ body{overflow-x:hidden}
     }
     .partnerDiv{
         bottom: -550px;left: 0;
-        height: 90px;max-width: 100%;min-width: 100%;
+        height: 80px;max-width: 100%;min-width: 100%;
         justify-content: center;
         
     }
     .partnerHead{
-          left: 0;top: -15px;max-width: 100%;min-width: 100%;text-align: center;
+          left: 0;top: -5px;max-width: 100%;min-width: 100%;text-align: center;
           font-size: 14px;
     }
     .partnerLogo{
