@@ -547,8 +547,8 @@
     -webkit-animation: letterOut 3s cubic-bezier(0, 0.2, 1, 0.8) 0s infinite; 
 }
 @keyframes letterOut{
-    70%{transform: translateY(-10px);}100%{transform: translateY(-50px);}
+    70%{transform: translateY(-10px);}95%{transform: translateY(-50px);}
 }
 @-webkit-keyframes letterOut{
-    70%{-webkit-transform: translateY(-10px);}100%{-webkit-transform: translateY(-50px);}
+    70%{-webkit-transform: translateY(-10px);}95%{-webkit-transform: translateY(-50px);}
 }
