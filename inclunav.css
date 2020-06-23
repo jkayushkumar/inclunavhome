@@ -520,10 +520,14 @@ form > .cardHead{
         -webkit-transform:perspective(200px) rotateY(10deg) scale(.5); 
     }
     .cardContact>.cardHead{
-        width: 90px;right: 68%;
+        right: 73%;top:39%;
+        height: 50px;width: 80px;
+        font-size: 14px;
     }
     .cardContact> form >.cardHead{
-        width: 90px;right: 68%;
+        right: 73%;top:39%;
+        height: 50px;width: 80px;
+        font-size: 14px;
     }
     .contactName{
         left: 40%;top:10%;
@@ -685,12 +689,14 @@ form > .cardHead{
         -webkit-transform:perspective(200px) rotateY(10deg) scale(.5); 
     }
     .cardContact>.cardHead{
-        top: 25%;
-        width: 90px;right: 10%;
+        right: 10%;top:19%;
+        height: 50px;width: 80px;
+        font-size: 14px;
     }
     .cardContact> form > .cardHead{
-        top: 25%;
-        width: 90px;right: 10%;
+        right: 10%;top:19%;
+        height: 50px;width: 80px;
+        font-size: 14px;
     }
     .contactName{
         left: 35%;top:10%;
