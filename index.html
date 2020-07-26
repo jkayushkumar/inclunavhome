@@ -5,7 +5,12 @@
         <meta name="theme-color" content=rgb(40,50,65)>
         <link rel="icon" href="inclunav/IncluIcon.png">
         <title>inclunav</title>
-        <link rel="stylesheet" href="inclunav.css">
+        <link rel="stylesheet" href="css/inclunav.css">
+        <script>
+            function navigate(action) {
+                if(action=='annotate'){window.location.href = "annotate.html";}
+                }                
+        </script>
     </head>
     <body ontouchstart="">   
         <div class="header">
@@ -55,7 +60,7 @@
                 <div class="deskBase"></div>
                 <div class="deskRest"></div>
             </div>
-            <button class="cardHead">Annotate</button>
+            <button class="cardHead" onclick="navigate('annotate')">Annotate</button>
             <div class="cardContent">
                 <ul>
                     <li>Annotate as many buildings you want</li>
