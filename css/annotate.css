@@ -76,7 +76,35 @@
 #signUpControl > a{text-decoration: none;}
 /* mobile portrait */
 @media only screen and (max-width: 567px){
-    
+    body{background-color: #efeeee;}   
+    .loginLogo{
+        width: 50%;left: 25%;
+    } 
+    .headerAnnotate{        
+        display: flex;justify-content: center;top: 30%;font-size: 14px;
+    }  
+    #loginHeader {font-size: 16px;width: 140%;left: -20%;}
+    #email{
+        width: 100%;left: 0;height: 5%;font-size: 14px;
+    }
+    #pass{
+        width: 100%;left: 0;height: 5%;font-size: 14px;
+    }
+    #loginControl{
+        text-align: center;
+        width: 100%;left: 0;
+        font-size: 12px;top: 52%;
+    }
+    #loginButton{
+        width: 80%;left: 10%;font-size: 14px;top: 80%;
+    }
+    #loginGoogle{width: 100%;left: 0;top: 70%;}
+    .bar1{width: 40%;}
+    .bar2{width: 40%;}
+    .or{width: 20%;left: 40%; top: 3%;}
+    #buttonGoogle{width: 110%;left: -5%;font-size: 14px;}
+    .buttonIcon{height: 60%;}
+    #signUpControl{font-size: 12px;width: 140%;left:-20%;top: 96%;}
 }
 /* mobile landscape, tab */
 @media only screen and (min-width: 568px) and (max-width: 1024px) {
