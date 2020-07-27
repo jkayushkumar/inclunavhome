@@ -7,19 +7,17 @@
         <title>inclunav : annotate</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/annotate.css">
-        <script>   
-            $(document).ready(function(){
-                $(window).resize(function(){
-                    if (screen.height < 568) {                   
-                    var metaViewPort = document.getElementById('vp');
-                    metaViewPort.setAttribute('content','user-scalable=no, width=device-width,initial-scale=1.0, height=568');
-                    }
-                    if (screen.height >= 568) {
-                    var metaViewPort = document.getElementById('vp');
-                    metaViewPort.setAttribute('content','user-scalable=no, width=device-width,initial-scale=1.0, height=device-height');
-                    }
-                });
-            });        
+        <script>
+        $(window).resize(function(){
+            if(screen.height<568){
+                var mVP=document.getElementById('vp');
+                mVP.setAttribute('content','user-scalable=no, width=device-width,initial-scale=1.0, height=568');
+            }
+            else{
+                var mVP=document.getElementById('vp');
+                mVP.setAttribute('content','user-scalable=no, width=device-width,initial-scale=1.0, height=device-height');
+            }
+        });
             // minHeight = function() {
             //     if (screen.height < 568) {                   
             //     var metaViewPort = document.getElementById('vp');
