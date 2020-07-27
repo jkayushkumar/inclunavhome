@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="user-scalable=no, width=device-width,initial-scale=1.0">
+        <meta id="vp" name="viewport" content="user-scalable=no, width=device-width,initial-scale=1.0">
         <meta name="theme-color" content=rgb(40,50,65)>
         <link rel="icon" href="inclunav/IncluIcon.png">
         <title>inclunav : annotate</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/annotate.css">
+        <script>            
+            minHeight = function() {
+                if (screen.height < 568) {                   
+                var metaViewPort = document.getElementById('vp');
+                metaViewPort.setAttribute('content','user-scalable=no, width=device-width,initial-scale=1.0, height=568');
+                }
+                if (screen.height >= 568) {
+                var metaViewPort = document.getElementById('vp');
+                metaViewPort.setAttribute('content','user-scalable=no, width=device-width,initial-scale=1.0, height=device-height');
+                }
+            }
+        </script>
     </head>
-    <body ontouchstart="">   
+    <body ontouchstart="" onresize="minHeight()">   
         <div class="header">            
             <div class="headerAnnotate">INCLUNAV : ANNOTATE</div>                       
         </div>
