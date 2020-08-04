@@ -10,25 +10,15 @@
         <script src="js/jquery.js"></script>
         <script>
         $(window).resize(function(){
-            if(screen.height<568){
+            if(screen.height<600){
                 var mVP=document.getElementById('vp');
-                mVP.setAttribute('content','user-scalable=no, width=device-width,initial-scale=1.0, height=568');
+                mVP.setAttribute('content','user-scalable=no, width=device-width,initial-scale=1.0, height=600');
             }
             else{
                 var mVP=document.getElementById('vp');
                 mVP.setAttribute('content','user-scalable=no, width=device-width,initial-scale=1.0, height=device-height');
             }
-        });
-            // minHeight = function() {
-            //     if (screen.height < 568) {                   
-            //     var metaViewPort = document.getElementById('vp');
-            //     metaViewPort.setAttribute('content','user-scalable=no, width=device-width,initial-scale=1.0, height=568');
-            //     }
-            //     if (screen.height >= 568) {
-            //     var metaViewPort = document.getElementById('vp');
-            //     metaViewPort.setAttribute('content','user-scalable=no, width=device-width,initial-scale=1.0, height=device-height');
-            //     }
-            //}
+        });            
         </script>
     </head>
     <body ontouchstart="">   
@@ -45,7 +35,7 @@
             </div>
             <div id="loginGoogle">
                 <div class="bar1"></div><div class="or">OR</div><div class="bar2"></div>
-                <button class="cardButton" id="buttonGoogle"><img class="buttonIcon" src="inclunav/google.png">&nbsp;&nbsp;Log In with Google</button>
+                <div><button class="cardButton" id="buttonGoogle"><img class="buttonIcon" src="inclunav/google.png">&nbsp;&nbsp;Log In with Google</button></div>
             </div>
             <div id="signUpControl">Don't have an account? <a href="signup.html">Sign Up</a></div>
         </div>                  

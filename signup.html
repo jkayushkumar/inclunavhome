@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="user-scalable=no, width=device-width,height=device-height, initial-scale=1.0">
+        <meta id="vp" name="viewport" content="user-scalable=no, width=device-width,height=device-height, initial-scale=1.0">
         <meta name="theme-color" content=rgb(40,50,65)>
         <link rel="icon" href="inclunav/IncluIcon.png">
         <title>inclunav : annotate</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/annotate.css">
         <link rel="stylesheet" href="css/signup.css">
+        <script src="js/jquery.js"></script>
+        <script>
+        $(window).resize(function(){
+            if(screen.height<600){
+                var mVP=document.getElementById('vp');
+                mVP.setAttribute('content','user-scalable=no, width=device-width,initial-scale=1.0, height=600');
+            }
+            else{
+                var mVP=document.getElementById('vp');
+                mVP.setAttribute('content','user-scalable=no, width=device-width,initial-scale=1.0, height=device-height');
+            }
+        });            
+        </script>
     </head>
     <body ontouchstart="">   
         <div class="header">            
@@ -28,7 +41,7 @@
             </div>
             <div id="loginGoogle">
                 <div class="bar1"></div><div class="or">OR</div><div class="bar2"></div>
-                <button class="cardButton" id="buttonGoogle"><img class="buttonIcon" src="inclunav/google.png">&nbsp;&nbsp;Sign Up with Google</button>
+                <div><button class="cardButton" id="buttonGoogle"><img class="buttonIcon" src="inclunav/google.png">&nbsp;&nbsp;Sign Up with Google</button></div>
             </div>
             <div id="signUpControl">Already have an account? <a href="annotate.html">Log In</a></div>
         </div>                  
